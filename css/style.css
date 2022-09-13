@@ -18,6 +18,10 @@
     font-size: 15px;
     padding: 0px 40px 0px 40px;
 }
+.nav__link a{
+    text-decoration: none;
+    color: black;
+}
 .darkMode{
     display: flex;
     justify-content: end;
