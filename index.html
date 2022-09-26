@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Porfolio de arquitectura de Julian Magallanes">
+    <meta name="keywords" content="trabajos, arquitectura, obras, construccccion, Mendoza, interior, renders, sketch, autocad, lumion.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1664234487/Portfolio%20Arquitectura/LOGO_bold-07_beh5fd.png">
     <title>Portfolio - Julian Magallanes</title>
 </head>
 <body>
     <header>
-        <ul class="nav">
-            <li class="nav__link">
-                <a href="./pages/arquitectura.html">PROYECTOS</a>
-            </li>
-            <li class="nav__link">
-                <a href="./pages/obras.html">OBRAS</a>
-            </li>
-            <li class="nav__link">
-                <a href="./pages/sobre-mi.html">SOBRE MI</a>
-            </li>
-        </ul>
+        <div class="header">
+            <ul class="nav">
+                <li class="nav__link">
+                    <a href="./pages/arquitectura.html">PROYECTOS</a>
+                </li>
+                <li class="nav__link">
+                    <a href="./pages/obras.html">OBRAS</a>
+                </li>
+                <li class="nav__link">
+                    <a href="./pages/sobre-mi.html">SOBRE MI</a>
+                </li>
+            </ul>
+            <div class="header__menuHamburguesa">
+                <span class="header__menuHamburguesa-line1"></span>
+                <span class="header__menuHamburguesa-line2"></span>
+                <span class="header__menuHamburguesa-line3"></span>
+            </div>
+        </div>
         <div class="darkMode">
             <span><img src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1662905811/Portfolio%20Arquitectura/dark-mode_livnal.png" alt="luna" class="darkMode__icon"></span>
             <h3 class="darkMode__text">Modo Oscuro</h3>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider"></span>
+            <label class="switch" >
+                <input type="checkbox" >
+                <span class="slider" id="switch"></span>
             </label>
         </div>
     </header>
     <main>
         <div class="mainContainer">
             <div class="mainContainer__logo">
-                <img src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1662899697/Portfolio%20Arquitectura/M_mtinwz.png" alt="m">
-                <img src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1662899697/Portfolio%20Arquitectura/J_mtu02b.png" alt="j">
+                <img src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1664234487/Portfolio%20Arquitectura/LOGO_bold-07_beh5fd.png" alt="logo">
             </div>
             <div class="mainContainer__title">
                 <h1>JULIAN MAGALLANES</h1>
@@ -47,10 +56,13 @@
     <footer>
         <ul class="rrss">
             <li class="rrss__list"><a href="https://www.linkedin.com/in/juli%C3%A1n-magallanes-2b074a187/" target="_blank" rel="nopener noreferrer" class="footer__rrssLink"><img class="rrss__list-icon" src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1662899469/Portfolio%20Arquitectura/linkedin_pxw0la.png" alt="linkedin"></a></li>
+            <li class="rrss__list"><a href="https://www.youtube.com/channel/UCVlpTcwITWkJke_odbSM6Mg" target="_blank" rel="nopener noreferrer" class="footer__rrssLink"><img class="rrss__list-icon" src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1663289917/Portfolio%20Arquitectura/48968_ddybey.png" alt="youtube"></a></li>
             <li class="rrss__list"><a href="https://wa.me/+5492613012708" target="_blank" rel="nopener noreferrer" class="footer__rrssLink"><img class="rrss__list-icon" src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1662899469/Portfolio%20Arquitectura/whatsapp_yyuo7g.png" alt="whatsapp"></a></li>
             <li class="rrss__list"><a href="https://www.instagram.com/magallanesjulian/" target="_blank" rel="nopener noreferrer" class="footer__rrssLink"><img class="rrss__list-icon" src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1662899468/Portfolio%20Arquitectura/instagram_rzupty.png" alt="instagram"></a></li>
-            <li class="rrss__list"><a href="https://drive.google.com/file/d/1l4_4I99oYKmc9M7AtL8yLESDwo70iZJB/view?usp=sharing" target="_blank" rel="nopener noreferrer" class="footer__rrssLink"><img class="rrss__list-icon" src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1663031308/Portfolio%20Arquitectura/2427488_ofumhl.png" alt="cv"></a></li>
+            <li class="rrss__list"><a href="https://drive.google.com/file/d/1l4_4I99oYKmc9M7AtL8yLESDwo70iZJB/view?usp=sharing" target="_blank" rel="nopener noreferrer" class="footer__rrssLink"><img class="rrss__list-icon" src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1663422130/Portfolio%20Arquitectura/cv3_aoaw4k.png" alt="cv"></a></li>
         </ul>
     </footer>
+    <script src="./js/darkmode.js"></script>
+    <script src="./js/header.js"></script>
 </body>
 </html>
