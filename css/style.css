@@ -113,13 +113,6 @@
 .mainContainer__title {
     padding-top: 40px;
 }
-.mainContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 200px;
-}
 .mainContainer__logo img{
     width: 80px;
 }
@@ -151,6 +144,47 @@
     display: flex;
     list-style: none;
     justify-content: center;
+}
+@media (max-width: 480px){
+    .mainContainer__logo img{
+        width: 60px;
+    }
+    .mainContainer__title h1{
+        font-size: 30px;
+    }
+    .mainContainer__title h2{
+        font-size: 15px;
+    }
+    .mainContainer{
+        padding-top: 120px;
+    }
+    .mainContainer__title {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 320px){
+    .mainContainer__logo img{
+        width: 60px;
+    }
+    .mainContainer__title h1{
+        font-size: 20px;
+    }
+    .mainContainer__title h2{
+        font-size: 12px;
+    }
+    .rrss{
+        bottom: 40px;
+    }
+    .rrss__list-icon{
+        width: 25px;
+        padding: 0px 8px 0px 8px ;
+    }
+    .mainContainer{
+        padding-top: 80px;
+    }
+    .mainContainer__title {
+        padding-top: 20px;
+    }
 }
 /*menu hamburguesa*/
 .header__menuHamburguesa{
@@ -226,6 +260,7 @@
     .activeheader{
         height: 120px;
     }
+
 }
 /*paginas header*/
 .header__pages{
@@ -275,6 +310,35 @@
     display: flex;
     justify-content: start;
 }
+@media (max-width: 480px){
+    .headerContainer__logo a img{
+        width: 40px;
+    }
+    .headerContainer__title h1{
+        font-size: 20px;
+    }
+    .headerContainer__title h2{
+        font-size: 16px;
+    }
+    .headerContainer{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 320px){
+    .headerContainer__logo a img{
+        width: 20px;
+    }
+    .headerContainer__title h1{
+        font-size: 16px;
+    }
+    .headerContainer__title h2{
+        font-size: 12px;
+    }
+    .headerContainer{
+        padding-top: 20px;
+    }
+}
+
 /*pagina arq*/
 .main_arquitectura-containerGrid {
     display: grid;
